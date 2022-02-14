@@ -4,14 +4,15 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="search" value="oneplus earbuds"/>
     <parameter name="url" value="https://www.amazon.in/"/>
+    <parameter name="email" value="lordzeus4646@gmail.com"/>
+    <parameter name="Password" value="Lord@123"/>
     <classes>
       <class name="test.AmazonTest">
         <methods>
           <include name="addToCartOperation"/>
-          <include name="start"/>
+          <include name="driverInstance1"/>
           <include name="stop"/>
           <include name="HomePageOperation2"/>
-          <include name="HomePageOperation1"/>
         </methods>
       </class> <!-- test.AmazonTest -->
     </classes>
