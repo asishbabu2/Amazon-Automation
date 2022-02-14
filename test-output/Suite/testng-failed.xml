@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="search" value="oneplus earbuds"/>
+    <parameter name="url" value="https://www.amazon.in/"/>
+    <classes>
+      <class name="test.AmazonTest">
+        <methods>
+          <include name="addToCartOperation"/>
+          <include name="start"/>
+          <include name="stop"/>
+          <include name="HomePageOperation2"/>
+          <include name="HomePageOperation1"/>
+        </methods>
+      </class> <!-- test.AmazonTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
